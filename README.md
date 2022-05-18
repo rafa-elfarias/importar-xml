@@ -1,6 +1,6 @@
 # Teste Vaga – Desenvolvedor PHP (Care Business)
 
-'''
+```bash
 Objetivo: 
 
 Gerenciar as notas fiscais do cliente.
@@ -11,7 +11,8 @@ O sistema deve ter uma tela para realizar upload de um arquivo na extensão ".xm
 O sistema deve validar se o arquivo é uma extensão .xml;
 O sistema deve permitir somente o upload do arquivo xml se o campo CNPJ do emitente(<emit>) for "09066241000884";
 O sistema deve validar se a nota possui protocolo de autorização preenchido (campo <nProt>);
-O sistema deve exibir em uma tela os seguintes dados: Número da nota Fiscal, Data da nota Fiscal, dados completos do destinatário e valor total da nota fiscal;
+O sistema deve exibir em uma tela os seguintes dados: Número da nota Fiscal, Data da nota Fiscal, dados completos 
+do destinatário e valor total da nota fiscal;
 
 Requisitos não funcionais:
 
