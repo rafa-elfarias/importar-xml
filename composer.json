@@ -1,0 +1,17 @@
+{
+    "properties": {
+        "ImportarXML": {
+            "type": "string",
+            "pattern": "^[a-z0-9]([_.-]?[a-z0-9]+)*/[a-z0-9](([_.]?|-{0,2})[a-z0-9]+)*$"
+        }
+    },
+    "require": {
+    	"slim/slim":"3.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImportarXML\\": "app"
+        }
+    }
+}
